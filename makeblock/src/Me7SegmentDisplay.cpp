@@ -141,7 +141,7 @@ Me7SegmentDisplay::Me7SegmentDisplay(uint8_t dataPin, uint8_t clkPin)
 #endif // ME_PORT_DEFINED
 
 #ifdef ME_PORT_DEFINED
-void Me7SegmentDisplay::reset(MePort port)
+void Me7SegmentDisplay::reset(uint8_t port)
 {
   reset(port);
   _clkPin = s2;

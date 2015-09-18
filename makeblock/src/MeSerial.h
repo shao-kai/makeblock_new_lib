@@ -44,7 +44,6 @@
 #ifndef MeSerial_H
 #define MeSerial_H
 
-#include <SoftwareSerial.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <arduino.h>

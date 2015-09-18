@@ -97,14 +97,14 @@ class Me7SegmentDisplay :public MePort
 public:
 #ifdef ME_PORT_DEFINED
   Me7SegmentDisplay();
-  Me7SegmentDisplay(MePort port);
+  Me7SegmentDisplay(uint8_t port);
 #else // ME_PORT_DEFINED
   Me7SegmentDisplay(uint8_t dataPin, uint8_t clkPin);
 #endif // ME_PORT_DEFINED
   void init(void); // Clear display
   void set(uint8_t = BRIGHTNESS_2, uint8_t = 0x40, uint8_t = 0xc0);// Take effect next display cycle.
 #ifdef ME_PORT_DEFINED
-  void reset(MePort port);
+  void reset(uint8_t port);
 #endif // ME_PORT_DEFINED
   void setpin(uint8_t dataPin, uint8_t clkPin);
   void write(uint8_t SegData[]);

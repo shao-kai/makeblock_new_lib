@@ -28,5 +28,5 @@ MeFlameSensor::MeFlameSensor(uint8_t port) : MePort(port)
 
 uint8_t MeFlameSensor::readSensor()
 {
-  return( MePort::dRead1() );
+  return( MePort::dRead2() );
 }

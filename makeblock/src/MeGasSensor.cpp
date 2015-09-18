@@ -28,12 +28,12 @@ MeGasSensor::MeGasSensor(uint8_t port) : MePort(port)
 
 uint8_t MeGasSensor::readDigital()
 {
-	return( MePort::dRead1() );
+	return( MePort::dRead2() );
 }
 
 uint16_t MeGasSensor::readAnalog()
 {
-	return( MePort::aRead2() );
+	return( MePort::aRead1() );
 }
 
 /**
