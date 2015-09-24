@@ -39,7 +39,7 @@
  * @example TouchSensorTest.ino
  */
 
-#include <MeTouchSensor.h>
+#include "MeTouchSensor.h"
 
 volatile uint8_t       MeTouchSensor::_TogPin             = 0;
 volatile uint8_t       MeTouchSensor::_OutputPin          = 0;

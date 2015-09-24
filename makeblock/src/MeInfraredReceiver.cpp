@@ -38,7 +38,7 @@
  *
  * @example InfraredReceiverTest.ino
  */
-#include <MeInfraredReceiver.h>
+#include "MeInfraredReceiver.h"
 
 volatile uint8_t MeInfraredReceiver::_RxPin = 0;
 volatile uint8_t MeInfraredReceiver::_KeyCheckPin = 0;

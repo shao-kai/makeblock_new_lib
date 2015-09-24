@@ -70,7 +70,7 @@
 #include <util/delay.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <MeConfig.h>
+#include "MeConfig.h"
 
 /**
  * A structure to represent MePort Signal.

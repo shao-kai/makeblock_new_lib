@@ -41,7 +41,7 @@
  * @example LineFollowerTest.ino
  */
 
-#include <MeLineFollower.h>
+#include "MeLineFollower.h"
 
 volatile uint8_t       MeLineFollower::_Sensor1        = 0;
 volatile uint8_t       MeLineFollower::_Sensor2        = 0;

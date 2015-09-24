@@ -44,7 +44,7 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include <MeGyro.h>
+#include "MeGyro.h"
 
 /* Private variables ---------------------------------------------------------*/
 volatile uint8_t MeGyro::_AD0 = 0;

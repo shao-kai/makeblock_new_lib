@@ -39,7 +39,7 @@
  *
  * @example UltrasonicSensorTest.ino
  */
-#include <MeUltrasonicSensor.h>
+#include "MeUltrasonicSensor.h"
 
 volatile uint8_t       MeUltrasonicSensor::_SignalPin        = 0;
 

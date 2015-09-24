@@ -42,10 +42,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <arduino.h>
-#include <MeConfig.h>
+#include "MeConfig.h"
 
 #ifdef ME_PORT_DEFINED
-#include <MePort.h>
+#include "MePort.h"
 #endif
 
 /**

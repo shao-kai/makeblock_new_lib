@@ -45,10 +45,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <arduino.h>
-#include <MeConfig.h>
+#include "MeConfig.h"
 
 #ifdef ME_PORT_DEFINED
-#include <MePort.h>
+#include "MePort.h"
 #endif // ME_PORT_DEFINED
 
 #define S1_IN_S2_IN   (0x00)    // sensor1 and sensor2 are both inside of black line

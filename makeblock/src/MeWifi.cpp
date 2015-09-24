@@ -36,8 +36,8 @@
  *
  * @example MeWifi.ino
  */
-#include <MeWifi.h>
-#include <MeSerial.h>
+#include "MeWifi.h"
+#include "MeSerial.h"
 
 #ifdef ME_PORT_DEFINED
 /**

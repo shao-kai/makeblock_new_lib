@@ -38,7 +38,7 @@
  * @example SoundSensorTest.ino
  */
 
-#include <MeSoundSensor.h>
+#include "MeSoundSensor.h"
 
 volatile uint8_t       MeSoundSensor::_SoundSensorRead        = 0;
 

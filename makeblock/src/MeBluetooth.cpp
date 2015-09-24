@@ -35,7 +35,7 @@
  *
  * @example SlaveBluetoothBySoftSerialTest.ino
  */
-#include <MeBluetooth.h>
+#include "MeBluetooth.h"
 
 #ifdef ME_PORT_DEFINED
 /**

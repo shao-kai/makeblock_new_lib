@@ -12,7 +12,7 @@
     <Author>     <Time>     <Version >     <Description>
     Lawrence    2015/8/14      1.0         new module lib
 *******************************************************************************/
-#include <MeGasSensor.h>
+#include "MeGasSensor.h"
 
 #ifdef ME_PORT_DEFINED
 MeGasSensor::MeGasSensor() : MePort(0)

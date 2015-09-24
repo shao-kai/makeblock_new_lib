@@ -37,7 +37,7 @@
  *
  * @example DCMotorDriverTest.ino
  */
-#include <MeDCMotor.h>
+#include "MeDCMotor.h"
 
 #ifdef ME_PORT_DEFINED
 /**

@@ -43,7 +43,7 @@
  * @example MeSerialReceiveTest.ino
  * @example MeSerialTransmitTest.ino
  */
-#include <MeSerial.h>
+#include "MeSerial.h"
 #include <stdio.h>
 #include <stdarg.h>
 

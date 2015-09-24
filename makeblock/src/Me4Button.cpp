@@ -40,7 +40,7 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include <Me4Button.h>
+#include "Me4Button.h"
 
 /* Private variables ---------------------------------------------------------*/
 volatile unsigned long Me4Button::previous_time       = 0;

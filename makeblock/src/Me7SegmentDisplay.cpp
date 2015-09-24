@@ -53,7 +53,7 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include <Me7SegmentDisplay.h>
+#include "Me7SegmentDisplay.h"
 
 /* Private variables ---------------------------------------------------------*/
 static uint8_t TubeTab[] = 

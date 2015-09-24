@@ -44,8 +44,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <arduino.h>
-#include <MeConfig.h>
-#include <MeSerial.h>
+#include "MeConfig.h"
+#include "MeSerial.h"
 
 /* NEC Code table */
 #define IR_BUTTON_POWER     (0x45)
@@ -81,7 +81,7 @@
 #define IR_BUTTON_9     (0x4A)
 
 #ifdef ME_PORT_DEFINED
-#include <MePort.h>
+#include "MePort.h"
 #endif /* ME_PORT_DEFINED */
 
 /**

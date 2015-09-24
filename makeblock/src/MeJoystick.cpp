@@ -41,7 +41,7 @@
  *
  * @example MeJoystickTest.ino
  */
-#include <MeJoystick.h>
+#include "MeJoystick.h"
 
 volatile uint8_t MeJoystick::_X_port = 0;
 volatile uint8_t MeJoystick::_Y_port = 0;

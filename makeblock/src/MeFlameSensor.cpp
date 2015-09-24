@@ -12,7 +12,7 @@
     <Author>     <Time>     <Version >     <Description>
     Lawrence    2015/8/14      1.0         new module lib
 *******************************************************************************/
-#include <MeFlameSensor.h>
+#include "MeFlameSensor.h"
 
 #ifdef ME_PORT_DEFINED
 MeFlameSensor::MeFlameSensor() : MePort(0)

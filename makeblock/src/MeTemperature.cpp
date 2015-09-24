@@ -39,7 +39,7 @@
  *
  * @example TemperatureTest.ino
  */
-#include <MeTemperature.h>
+#include "MeTemperature.h"
 
 volatile uint8_t       MeTemperature::_DataPin             = 0;
 

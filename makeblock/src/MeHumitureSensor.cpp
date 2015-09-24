@@ -39,7 +39,7 @@
  *
  * @example MeHumitureSensorTest.ino
  */
-#include <MeHumitureSensor.h>
+#include "MeHumitureSensor.h"
 
 #ifdef ME_PORT_DEFINED
 /**

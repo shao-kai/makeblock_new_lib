@@ -40,7 +40,7 @@
  *
  * @example MeShutterTest.ino
  */
-#include <MeShutter.h>
+#include "MeShutter.h"
 
 volatile uint8_t       MeShutter::_ShotPin             = 0;
 volatile uint8_t       MeShutter::_FocusPin            = 0;

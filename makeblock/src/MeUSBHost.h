@@ -16,8 +16,8 @@
 #include <Arduino.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include <MeConfig.h>
-#include <MePort.h>
+#include "MeConfig.h"
+#include "MePort.h"
 #define USB2_0 1
 #define USB1_0 0
 

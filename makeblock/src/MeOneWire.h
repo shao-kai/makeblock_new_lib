@@ -59,7 +59,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <arduino.h>
-#include <MeConfig.h>
+#include "MeConfig.h"
 
 /**
  * Class: MeOneWire

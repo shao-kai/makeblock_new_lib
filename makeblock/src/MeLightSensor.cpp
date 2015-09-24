@@ -42,7 +42,7 @@
  */
 
 /* Private define ------------------------------------------------------------*/
-#include <MeLightSensor.h>
+#include "MeLightSensor.h"
 
 /* Private functions ---------------------------------------------------------*/
 #ifdef ME_PORT_DEFINED

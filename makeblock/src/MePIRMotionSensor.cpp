@@ -40,7 +40,7 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include <MePIRMotionSensor.h>
+#include "MePIRMotionSensor.h"
 
 /* Private functions ---------------------------------------------------------*/
 
